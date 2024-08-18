@@ -21,10 +21,12 @@ nav a{
     display: flex;
     color: var(--color-light);
     font-size: 1.1rem;
+    transition: transform 0.5s ease-in-out;
 }
 
 nav a:hover{
-    background: rgba(0,0,0,0.2);
+    background: rgba(51, 57, 93, 0.2);
+    transform: scale(1.1);
 }
 
 nav a.active{
